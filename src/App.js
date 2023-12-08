@@ -13,6 +13,9 @@ function App() {
         <p>
           Mudanças!
         </p>
+        <p>
+          Outra mudança!
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
