@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /appDeploy/hello-world-react
+file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
