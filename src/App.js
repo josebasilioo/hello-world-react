@@ -14,7 +14,7 @@ function App() {
           Mudanças!
         </p>
         <p>
-          Sending updates
+          Sending updates ?
         </p>
         <a
           className="App-link"
