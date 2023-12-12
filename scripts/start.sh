@@ -1,6 +1,6 @@
 #!/bin/bash
 nomeApp="hello-react-jbasilio"
-cd /appdir
+cd /appDeploy/hello-world-react
 npm install
 
 sudo supervisord
