@@ -1,4 +1,4 @@
 #!/bin/bash
-nomeApp="hello-react-jbasilio"
+nomeApp="helloReact"
 
 sudo supervisorctl stop $nomeApp
