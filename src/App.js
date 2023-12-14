@@ -11,9 +11,6 @@ function App() {
           Hello React!
         </p>
         <p>
-          Pipeline
-        </p>
-        <p>
           running
         </p>
         <a
