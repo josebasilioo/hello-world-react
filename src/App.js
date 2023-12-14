@@ -8,13 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello React!
-        </p>
-        <p>
-          Mudanças!
-        </p>
-        <p>
-          Sending updates ?
+          Hello React! Updating from pipeline
         </p>
         <a
           className="App-link"
