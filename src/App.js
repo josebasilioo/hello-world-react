@@ -14,7 +14,7 @@ function App() {
           Testeee!!! New New
         </p>
         <p>
-          Supervisorctl
+          Supervisorctl updates
         </p>
         <a
           className="App-link"
