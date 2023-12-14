@@ -10,6 +10,9 @@ function App() {
         <p>
           Hello React! Updating from pipeline
         </p>
+        <p>
+          Just a test
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
