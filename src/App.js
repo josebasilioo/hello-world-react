@@ -13,6 +13,9 @@ function App() {
         <p>
           Testeee!!! New New
         </p>
+        <p>
+          Supervisorctl
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
