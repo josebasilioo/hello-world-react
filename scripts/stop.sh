@@ -1,4 +1,11 @@
 #!/bin/bash
 nomeApp="helloReact"
 
-sudo supervisorctl stop $nomeApp
+process=`sudo lsof -i :9001`
+
+if [ -z "${process}" ]; then
+    echo "Empty process... starting"
+else
+    echo "Stopping supervisor app..."
+    sudo supervisorctl stop $nomeApp
+fi
