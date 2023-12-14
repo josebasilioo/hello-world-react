@@ -13,6 +13,9 @@ function App() {
         <p>
           Pipeline
         </p>
+        <p>
+          running
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
