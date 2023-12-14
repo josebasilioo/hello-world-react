@@ -9,5 +9,4 @@ sudo kill -9 $pid
 
 sudo supervisord
 sudo supervisorctl start $nomeApp
-npm start
 
