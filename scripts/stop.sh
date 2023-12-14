@@ -2,7 +2,7 @@
 nomeApp="helloReact"
 
 process=`sudo lsof -i :9001`
-pid=`echo $x | grep -oP '\b\d+\b' | head -n 1`
+pid=`echo $process | grep -oP '\b\d+\b' | head -n 1`
 
 if [ -z "${process}" ]; then
     echo "Empty process... starting"
