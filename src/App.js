@@ -11,7 +11,7 @@ function App() {
           Hello React!
         </p>
         <p>
-          Updates
+          Updates !!
         </p>
         <a
           className="App-link"
