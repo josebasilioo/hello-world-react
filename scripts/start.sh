@@ -1,8 +1,8 @@
 #!/bin/bash
 nomeApp="helloReact"
 cd /appDeploy
-npm cache clean -f
-npm install
+sudo npm cache clean -f
+sudo npm install
 
 process=`sudo lsof -i :9001`
 pid=`echo $process | grep -oP '\b\d+\b' | head -n 1`
